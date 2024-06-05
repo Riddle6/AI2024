@@ -1,0 +1,139 @@
+/* CSS Document */
+
+/* Font families:
+"Roboto"
+""
+
+End of Font Families */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+
+body {
+	background-color: #212121;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 12px;
+	border: thick #000 solid;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+/* Style rules for header */
+
+header {
+	float: none;
+}
+
+h2 {
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 1%;
+	background-color: #474747;
+	text-shadow: 4px 4px 2px #000;
+}
+
+/* Style rules for navigation */
+
+nav {
+	margin-left: 25.5%;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav li a {
+	color: #AFDBC9;
+	padding: 2%;
+	text-decoration: none;
+	float: left;
+	border-radius: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.3em;
+}
+
+nav li a:hover {
+	background-color: #252256;
+	color: #00FF0E
+}
+
+/* Style rules for main */
+
+main {
+	clear: both;
+}
+
+main p {
+	background-color: #e9e9e9;
+	padding: 1.5%;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5em;
+}
+
+/* Styles rules for footer */
+
+footer p {
+	background-color: #C1C1C1;
+	padding: 2%;
+	text-align: center;
+}
+
+footer p a {
+	text-decoration: none;
+}
+
+/* Style rules for form */
+
+form {
+	background-color: #fff;
+	padding: 1%;
+}
+
+input {
+	border: solid thin #000;
+	font-size: 1.25em;
+	padding: 1%;
+	display: block;
+	text-align: left;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	margin-top: 1%;
+	border-radius: 15px;
+	background-color: #f0f0f0;
+}
+
+label {
+	font-size: 1.5em;
+	font-family: "Roboto", sans-serif;
+	margin-left: 5%;
+}
+
+.btn {
+	display: block;
+	text-align: right;
+	margin-left: 10%;
+	margin-top: 4.25%;
+}
+
+.btn:hover {
+	background-color: #292929;
+	color: #fff;
+}
+
+
+/* Media Query for Tablet-Desktop */
